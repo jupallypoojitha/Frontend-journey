@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+h1{
+    color: black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section {
+    width: 80%;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Linear Gradients */
+.linear-gradient {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.linear-gradient-diagonal {
+    background: linear-gradient(135deg, #667eea, #764ba2, #ff6a00);
+}
+
+/* Radial Gradients */
+.radial-gradient {
+    background: radial-gradient(circle, #ff7e5f, #feb47b);
+}
+
+.radial-gradient-ellipse {
+    background: radial-gradient(ellipse at center, #00c6ff, #0072ff);
+}
+
+/* Conic Gradient */
+.conic-gradient {
+    background: conic-gradient(from 0deg, red, yellow, green, cyan, blue, magenta, red);
+}
+
+/* Animated Gradient */
+.animated-gradient {
+    background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #ffdde1, #a1c4fd);
+    background-size: 400% 400%;
+    animation: gradientAnimation 6s infinite linear;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Text Gradient Effect */
+.gradient-text {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
