@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 15px;
+            width: 80%;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 32%;
+            height: auto;
+            border-radius: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://picsum.photos/300/300?random=1" alt="Random Image 1">
+        <img src="https://picsum.photos/300/300?random=2" alt="Random Image 2">
+        <img src="https://picsum.photos/300/300?random=3" alt="Random Image 3">
+        <img src="https://picsum.photos/300/300?random=4" alt="Random Image 4">
+        <img src="https://picsum.photos/300/300?random=5" alt="Random Image 5">
+        <img src="https://picsum.photos/300/300?random=6" alt="Random Image 6">
+        <img src="https://picsum.photos/300/300?random=7" alt="Random Image 7">
+        <img src="https://picsum.photos/300/300?random=8" alt="Random Image 8">
+        <img src="https://picsum.photos/300/300?random=9" alt="Random Image 9">
+        <img src="https://picsum.photos/300/300?random=10" alt="Random Image 10">
+        <img src="https://picsum.photos/300/300?random=11" alt="Random Image 11">
+        <img src="https://picsum.photos/300/300?random=12" alt="Random Image 12">
+    
+    </div>
+</body>
+</html>
