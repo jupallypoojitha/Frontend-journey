@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    gap: 40px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.231);
+    z-index: 1;
+}
+nav a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 16px;
+}
+nav a li{
+    padding: 15px;
+}
+nav a li:hover{
+    color: #007bfe;
+    background-color: white;
+}
+#Flipkart-signupBody{
+    height: 100vh;
+    background-color: #f1f3f6;
+    padding-top: 100px;
+}
+.Flipkart-signup{
+    margin: auto;
+    width: 504px;
+    height: 528px;
+    padding: 56px 35px 16px;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+.Flipkart-signup input{
+    padding: 8px 10px 10px 0px;
+    width: 100%;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 40px;
+}
+.Flipkart-signup input:focus{
+    outline: none;
+    border-bottom: 1px solid #5174f1;
+}
+.Flipkart-signup p{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.Flipkart-signup p a{
+    color: #5174f1;
+    text-decoration: none;
+}
+.Flipkart-signup .continue{
+    width: 100%;
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    border: none;
+    color: #fff;
+    height: 48px;
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-weight: 500;
+    outline: none;
+}
+.Flipkart-signup .login{
+    width: 100%;
+    color: #0764fa;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
+    border: none;
+    height: 48px;
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-weight: 500;
+    outline: none;
+    background-color: white;
+    margin-top: 18px;
+}
+/* instagram register form */
+#instagramBody{
+   height: 110vh;
+   background-color: black;
+   padding: 20px 0px 20px 0px;
+}
+.instagram{
+    margin: auto;
+    margin-top:10px;
+    padding: 30px 0px;
+    width: 348.4px;
+    height:614.987px;
+    color: white;
+    border: 0.8px solid #343434;
+  
+    
+}
+.sign-up h1{
+    font-family: "Pacifico", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.instagram .sign-up h1,p{
+    
+    text-align: center;
+    margin-bottom: 25px;
+}
+.sign-up p{
+    padding: 0px 40px;
+    color: #a6a6a6;
+    font-weight: 549;
+}
+.sign-up button{
+    display: block;
+    margin: auto;
+    color: #ffffff;
+    width: 265.8px;
+    height: 35px;
+    background-color: #0095f6;
+    border-radius: 10px;
+    border: none;
+    font-weight: 550;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.sign-up  .img{
+    width: 17px;
+    margin-right: 6px;  
+}
+.lines{
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.line,.line1{
+    display: inline-block;
+    border: 1px solid rgba(72, 69, 69, 0.38);
+    width: 38%;
+    margin: 3px 0px;
+}
+.or{
+    padding: 0px 5px;
+    color:#aeaeae;
+    font-size: small;
+    
+}
+.sign-up input{
+    display: block;
+    margin: auto;
+    padding:19px 0px 17px 18px;
+    width: 265.8px;
+    height: 20px;
+    background-color: #121212;
+    margin-bottom: 7px;
+    border: 1px solid #555555;
+    border-radius: 3px;
+    color: white;
+    
+}
+.sign-up input:focus{
+    outline: none;
+}
+.sign-up .content p{
+   font-size: 12px;    
+}
+
+#insta{
+    margin: auto;
+    border: 0.8px solid #343434;
+    width: 348.4px;
+    height: 81px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+#insta a{
+    display: block;
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 25px;
+}
+/* netflix signup Form */
+#NetflixBody{
+   height: 100vh;
+   background-color: black;
+    color: white;
+    font-family: Netflix Sans;
+    background-image: linear-gradient(12deg, rgba(0, 0, 0, 0.8500) 36.00%, rgba(0, 0, 0, 0.8465) 40.58%, rgba(0, 0, 0, 0.8361) 45.17%, rgba(0, 0, 0, 0.8187) 49.75%, rgba(0, 0, 0, 0.7944) 54.33%, rgba(0, 0, 0, 0.7632) 58.92%, rgba(0, 0, 0, 0.7250) 63.50%, rgba(0, 0, 0, 0.6868) 68.08%, rgba(0, 0, 0, 0.6556) 72.67%, rgba(0, 0, 0, 0.6313) 77.25%, rgba(0, 0, 0, 0.6139) 81.83%, rgba(0, 0, 0, 0.6035) 86.42%, rgba(0, 0, 0, 0.6000) 91.00%),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/04ef06cc-5f81-4a8e-8db0-6430ba4af286/web/IN-en-20250224-TRIFECTA-perspective_3a9c67b5-1d1d-49be-8499-d179f6389935_large.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+@font-face {
+    font-family: Netflix Sans;
+    src: url(../../Assests/fonts/NetflixSans-Bold.otf);
+}
+@font-face {
+    font-family: Netflix-regular;
+    src: url(../../Assests/fonts/NetflixSans-Regular.otf);
+}
+.ev1dnif2{
+    fill:#e50914;
+    height: 40px;
+    width: 148px;
+}
+.header{
+    padding: 0px 148px 0px 148px;
+    display: flex;
+    height: 88px;
+    align-items: center;
+    justify-content: center;
+}
+.side-content{
+    position: relative;
+}
+.side-content svg:nth-child(1),.side-content i{
+    color: white;
+    position: absolute;
+}
+.side-content svg:nth-child(1){
+    left: 10px;
+    top: 7px;
+}
+.side-content i{
+    left:107px;
+    top: 13px;
+    font-size: 8px;
+    
+}
+.logo{
+    flex-basis: 82%;
+}
+select{
+    padding: 6px 15px 6px 28px;
+    background-color: #0f0f0fc4;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0.8px solid #5c5c5c;
+    font-family: Netflix-regular;
+}
+select option{
+    color: black;
+    align-items: center;
+    background-color: white;
+}
+select:focus{
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+.side-content button{
+    width: 74px;
+    height: 33px;
+    border: 0.8px solid #e50914;
+    background-color: #e50914;
+    color: white;
+    margin-left: 7px;
+    border-radius: 5px;
+    font-family: Netflix Sans;
+}
+.netflix{
+    margin-top: 150px;
+}
+.netflix h1{
+    font-size: 3.3rem;
+    font-weight: 900;
+    width: 588;
+    height: 210;
+    margin-bottom: 16px;
+    text-align: center;
+    /* margin-top: 250px; */
+    padding: 0px 450px;
+}
+.netflix p{
+    text-align: center;
+}
+.netflix .first{
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+.netflix input{
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 18px 16px 18px 16px;
+    width:  341.9px;
+    height: 22px;
+    background-color: black;
+    margin-left:450px;
+    border: 0.8px solid #4b4a47;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-right: 4px;
+    color: white;
+}
+.netflix .email{
+    padding: 30px 30px 30px 15px;
+}
+.netflix button{
+    display: inline-block;
+    width: 205.107px;
+    height: 58px;
+    border: 0.8px solid tomato;
+    background: rgb(229, 9, 20);
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
+/* twitter signup Form */
+#twitterBody{
+    height: 110vh;
+    background-color: #191f24;
+    padding-top: 25px;
+}
+.twitter{
+    width: 590px;
+    height: 650.8px;
+    padding: 10px 80px;
+    color: #9fa1a2;
+    background-color: #000;
+    border-radius: 20px;
+    margin: auto;
+}
+.twitter .x{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 40px;
+
+}
+.twitter p{
+    margin-top: 30px;
+    color: #eaeaec;
+    font-size: xx-large;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    text-align: left;
+}
+.twitter input{
+    width: 422.4px;
+    height: 20px;
+    padding: 30px 10px;
+    border: 1px solid #4b4d51;
+    background-color: #000;
+    margin-bottom: 25px;
+    outline: none;  
+    color: white;
+    border-radius: 5px;  
+} 
+.twitter input::placeholder{
+    font-size: 16px;
+}
+.twitter #dob{
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+.twitter #content{
+   display: block;
+   margin-bottom: 15px;
+   width: 422.4px;
+}
+.twitter .month, .date,.year{
+    border: 1px solid #333639;
+    background-color: black;
+    margin-right: 12px;
+    color: #6c6c6c;
+    text-align: top;
+    padding: 4px 18px 27px 2px;
+    margin-top: 16px;
+    outline: none;
+}
+.twitter .month{
+    padding-right: 123.6px;
+}
+.twitter .date{
+    padding-right:40px;
+}
+.twitter .year{
+    padding-right: 40px;
+}
+.twitter .next button{
+    margin-top: 70px;
+    width: 422.4px;
+    background-color: #787a7a;
+    border-radius: 30px;
+    padding: 15px;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.twitter .month:hover ,.twitter .date:hover,.twitter .year:hover{
+    border: 1px solid #1c94e5;
+}
+.input:focus{
+    border: 2px solid #1c94e5;
+}
+/* facebook signup form */
+#facebookbody{
+    height: 100vh;
+    color: #1c1e21;
+    line-height: 1.34;
+    background-color: #f0f2f5;
+    padding: 25px 0px;
+}
+.facebook h1{
+    text-align: center;
+    font-family: Helvetica, Arial ,sans-serif;
+    color: #0866ff;
+    line-height: 1.34;
+    height: 60px;
+    font-weight:900;
+
+}
+.facebook-signup{
+    
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    width: 432px;
+    height: 570px;
+    /* border: 2px solid; */
+}
+.firstdivision{
+    padding: 1px -80px;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    border-bottom: 0.8px solid rgba(201, 201, 201, 0.474);
+    margin-bottom: 15px;
+}
+.firstdivision p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.firstdivision .main-heading{
+    color: #000000;
+    font-weight: 600;
+    font-size: x-large;
+}
+.firstdivision .main-info{
+    color: #393939;
+    font-size:smaller;
+}
+.details input{
+    border: 0.8px solid #ccd0d5;
+    border-radius: 5px;
+    padding: 11px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.details .dob p{
+    margin-bottom: 0px;
+}
+.details .dob,.details .Gender{
+    margin-bottom: 13px;
+    color: #363a3e;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 3px;
+}
+
+.details .dob span, .Gender span{
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    background-color: #393939cf;
+}
+.details p{
+    margin-bottom: 0px;
+    text-align: left;
+}
+.details .circle{
+    display: inline;
+    border:1px solid #dfe2e5;
+    margin-right: 15px;
+    padding: 9px 0px;
+   
+}
+.details .circle p{
+    display: inline;
+    padding: 15px 40px 10px 10px;
+    font-size: 15px;
+
+}
+.details select{
+    border: 0.8px solid #ccd0d5;
+    padding: 0px 40px 0px 8px;
+    margin-right: 10px;
+    height: 34.4px;
+    width: 119.4px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+}
+.details .date{
+    margin-top: 0px ;
+}
+.details .email{
+    margin-top: 10px;
+    width: 388px;
+}
+.details .password{
+    width: 388px;
+}
+.details .para{
+    margin: 11px 0px;
+    color: #9a9898;
+    font-size: 12px;
+}
+.details .signup button{
+    text-align: center;
+    background-color: #00a400;
+    width:194px;
+    height: 36px;
+    color: #fff;
+    border: 1px solid #3eba3e;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.details .foot{
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    text-decoration: none;
+    color: #1877f3;
+    font-size: 18px;
+}
+.details a{
+    text-decoration: none;
+    color: #0d0083b0;
+}
