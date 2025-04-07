@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    gap: 40px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.231);
+    z-index: 1;
+}
+nav a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 16px;
+}
+nav a li{
+    padding: 15px;
+}
+nav a li:hover{
+    color: #007bfe;
+    background-color: white;
+}
+#Flipkartbody{
+    height: 100vh;
+    background-color: #f1f3f6;
+    padding-top: 60px;
+}
+.Flipkart-login{
+    margin: auto;
+    width: 504px;
+    height: 528px;
+    padding: 56px 35px 16px;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+.Flipkart-login input{
+    padding: 8px 10px 10px 0px;
+    width: 100%;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 40px;
+}
+.Flipkart-login input:focus{
+    outline: none;
+    border-bottom: 1px solid #5174f1;
+}
+.Flipkart-login p{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.Flipkart-login p a{
+    color: #5174f1;
+    text-decoration: none;
+}
+.Flipkart-login button{
+    width: 100%;
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    border: none;
+    color: #fff;
+    height: 48px;
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-weight: 500;
+    outline: none;
+}
+.Flipkart-login .newaccount{
+    display: block;
+    text-decoration: none;
+    color: #0764fa;
+    font-weight: 500;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 63%;
+}
+#instagramBody{
+    height: 100vh;
+    background-color: black;
+    padding-top: 150px;
+}
+.instagram{
+    margin: auto;
+    padding: 10px 0px;
+    width: 348.4px;
+    height:310px;
+    color: white;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.instagram .login h1{
+    font-family: "Pacifico", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+} 
+.instagram .login{
+    border: 0.8px solid rgba(128, 128, 128, 0.51);
+    width: 348.4px;
+    height: 300px;
+}
+.instagram .login input{
+    display: block;
+    margin: auto;
+    padding:19px 0px 17px 18px;
+    width: 250.8px;
+    height: 20px;
+    background-color: #121212;
+    margin-bottom: 10px;
+    border: 1px solid #767575;
+    color: white;
+    border-radius: 3px;
+    
+}
+.instagram .login input:focus{
+   outline: none;
+
+}
+.instagram .login button{
+    display: block;
+    margin: auto;
+    color: #acb0b3;
+    width: 250.8px;
+    height: 35px;
+    background-color: #0069ad;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.instagram .login a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#insta{
+    
+    margin: auto;
+    border: 0.8px solid #555555;
+    width: 348.4px;
+    height: 61px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    padding: 18px 0px;
+}
+#insta a{
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* this is netflix login page */
+#netflixBody{
+    height: 110vh;
+    font-family:  Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    padding-top: 10px;
+    background-image: linear-gradient(12deg, rgba(0, 0, 0, 0.8500) 36.00%, rgba(0, 0, 0, 0.8465) 40.58%, rgba(0, 0, 0, 0.8361) 45.17%, rgba(0, 0, 0, 0.8187) 49.75%, rgba(0, 0, 0, 0.7944) 54.33%, rgba(0, 0, 0, 0.7632) 58.92%, rgba(0, 0, 0, 0.7250) 63.50%, rgba(0, 0, 0, 0.6868) 68.08%, rgba(0, 0, 0, 0.6556) 72.67%, rgba(0, 0, 0, 0.6313) 77.25%, rgba(0, 0, 0, 0.6139) 81.83%, rgba(0, 0, 0, 0.6035) 86.42%, rgba(0, 0, 0, 0.6000) 91.00%),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/04ef06cc-5f81-4a8e-8db0-6430ba4af286/web/IN-en-20250224-TRIFECTA-perspective_3a9c67b5-1d1d-49be-8499-d179f6389935_large.jpg);
+            /* height: 110vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.ev1dnif2{
+    fill:#e50914;
+    height: 40px;
+    width: 148px;
+    margin-top: 15px;
+    margin-left: 175px;
+}
+.netflix{
+    background-color: rgb(25, 25, 25);
+    
+    margin: auto;
+    width: 450px;
+    height: 650px;
+    /* border: 2px solid white; */
+    padding: 48px 68px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 30px;
+
+}
+.sign-in h1{
+    margin-bottom: 28px;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.netflix input{
+        background-color: rgb(25, 25, 25);
+        width: 280px;
+        border: 0.8px solid #6f6f6f;
+        border-radius: 4px;
+        padding: 16px;
+        margin-bottom: 15px;
+        color: white;
+}
+.sign-in .Nsign-in ,.sign-in-code{
+    width: 312.4px;
+    height: 38.4px;
+    padding: 8px 16px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    
+    
+} 
+.sign-in .Nsign-in{
+    background-color: rgb(229, 9, 20);
+    margin-bottom: 10px;
+}
+.sign-in .OR{
+    text-align: center;
+    color: #d1d1d1ae;
+    font-size:medium;
+}
+.sign-in-code{
+   background-color:#5b5b5b6e;
+   margin-bottom: 10px;
+}
+#forgotpw{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#checkbox{
+    width:30px;
+    height: 20px;   
+}
+
+#color ,#context{
+    color: #9f9f9f;
+}
+.sign-up{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#context{
+    font-size: smaller;
+    margin-top: 20px;
+}
+#context a{
+    color: #007bfe;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+/* twitter login page */
+#twitterBody{
+    height: 100vh;
+    padding-top: 20px;
+    background-color: #242d34;
+}
+.login-page{
+    width: 584.8px;
+    height: 587.6px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0px 32px 48px;
+    background-color: black;
+    font-size: 15px;
+    font-family:  Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+}
+.Twitter{
+    width: 364px;
+    height: 536.6;
+    margin: auto;
+    padding: 0px 32px 48px;
+}
+#Xsymbol{
+    width: 100%;
+    height:30px;
+}
+.Twitter h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+#login a button img{
+    margin-bottom: -5px;
+   height: 22px;
+}
+img[alt=apple]{
+    height:320px;
+}
+#login a .btn ,.next {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.Twitter .line,.Twitter .line1{
+    display: inline-block;
+    border: 1px solid gray;
+    width: 40%;
+    margin: 3px 0px;
+}
+.or{
+    padding: 15px;
+}
+
+.Email{
+    margin-top: 16px;
+    padding: 12px 8px 8px 8px;
+    width: 300.4px;
+    height: 60px;
+    background-color: black;
+    border: 1px solid rgba(128, 128, 128, 0.417);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    position: relative;
+    color: white;
+}
+.Email::placeholder{
+    font-size: 1rem ;
+    
+}
+.Email:hover{
+    border: 2px solid #1c94e5;
+   
+    
+}
+.Email:focus::placeholder{
+    color: #1c94e5;
+    position: absolute;
+    top: 5px;
+    font-size: 13px;
+}
+.Twitter a .forgotpw {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    border: 0.8px solid rgb(81, 92, 119);
+    
+    /* color: white; */
+}
+.Twitter a .forgotpw:hover{
+    background-color: rgba(146, 146, 146, 0.133);
+}
+#text{
+    color: #5a5e62;
+}
+#text a{
+    color: #1c94e5;
+    text-decoration: none;
+}
+/* facebook login page */
+#facebookBody{
+    height: 100vh;
+    background-color: #f2f4f7;
+    width: 100%;
+    padding-top: 60px;
+}
+.facebook .login{
+    margin-top: 120px;
+    margin-left: 55%;
+    width: 396px;
+    height: 392px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background-color: #ffffff;
+    padding: 10px 0px 24px 0px;
+    border-radius: 3px;
+    
+}
+.login input, .login .fblogin{
+    display: block;
+    margin: auto;
+    width: 373px;
+    border: 0.8px solid #dddfe2;
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin-bottom: 15px;
+
+}
+.login .email:focus{
+    border-color: rgb(0, 0, 255);
+    caret-color:  rgb(0, 0, 255);
+    outline: 1px solid rgb(0, 0, 255);
+}
+
+.fblogin{
+    width: 373px;
+    background-color: #0866ff;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+#forgotpw{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+ #forgotpw:hover{
+    text-decoration: underline;
+}
+#forgotpw:active, #forgotpw:link, #forgotpw:visited{
+    color: #0080ff;
+}
+.line{
+    margin: 32px 16px 0px;
+    border-bottom: 1px solid #dadde1;
+    width: 340px;
+}
+
+.login .newaccount {
+    margin-top: 32px;
+    width: 50%;
+    padding: 10px;
+    background-color: #42b72a;
+    border:1px solid #45c12c;
+    border-radius: 6px;
+    margin-left: 25%;
+    cursor: pointer;
+}
+.login .newaccount a{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+}
