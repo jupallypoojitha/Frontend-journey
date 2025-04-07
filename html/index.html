@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML document</title>
+</head>
+<body>
+    <!-- Write your comments here -->
+    <h1>HTML CONCEPTS</h1>
+    <h1>First Heading Tag</h1>
+    <h2>second Heading Tag</h2>
+    <h3>Third Heading Tag</h3>
+    <h4>Fourth Heading Tag</h4>
+    <h5>Fifth Heading Tag</h5>
+    <h6>Sixth Heading Tag</h6>
+    <hr> <!-- horizontal line -->
+    <p title="I'm a tooltip">This is a paragraph.</p>
+    <!--_self - Default. Opens the document in the same window/tab as it was clicked
+        _blank - Opens the document in a new window or tab
+        _parent - Opens the document in the parent frame
+        _top - Opens the document in the full body of the window -->
+    <a href="https://www.w3schools.com" target="_blank">This is a link</a>
+    
+    <!-- button tag -->
+    <button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+    <pre>
+        preformatted text:
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+    </pre>
+    <hr>
+    <h3>HTML Formatting Elements</h3><br>
+    <b>This text is bold</b> <br>
+    <strong>This text is important!(Semantic tags)</strong><br>
+    <i>This text is italic</i><br>
+    <em>This text is emphasized(Semantic tags)</em> <br>
+    <small>This is some smaller text.</small><br>
+    <p>(Defines marked/highlighted text)<mark>milk</mark></p>
+    <p>rowsers will usually <s>strike</s> a line through deleted text</p>
+    <p>(Semantic tags del) <del>blue </del></p>
+    <u>Browsers will usually underline inserted text</u><br>
+    <ins>red (Semantic tags)</ins><br>
+    <p>This is <sub>subscripted</sub> text.</p>
+    <p>This is <sup>superscripted</sup> text.</p>
+    <hr>
+    <h3>HTML Quotation and Citation Elements</h3>
+    <p>WWF's goal is to: <q>Browsers normally insert quotation marks around the quotation</q></p>
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    <hr>
+    <!-- html Images -->
+    <h3>image <h3>
+    <img src="https://thewowstyle.com/wp-content/uploads/2015/01/nature-images-6.jpg" alt="W3Schools.com" width="104" height="142">
+    <br>
+    <h3>clickable images </h3> 
+    <a href="https://www.bing.com/images/search?view=detailV2&ccid=7onjOi3l&id=596D2A34100AFD6C4F043FDA0554D61356909216&thid=OIP.7onjOi3lnnR4YXRN067d0QHaEo&mediaurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.ee89e33a2de59e747861744dd3aeddd1%3Frik%3DFpKQVhPWVAXaPw%26riu%3Dhttp%253a%252f%252fwallpapercave.com%252fwp%252fPJXlT3m.jpg%26ehk%3D4KIKqKYgfLJY4YPAtMespwDXU44zDiNwMjgJptatzrU%253d%26risl%3D%26pid%3DImgRaw%26r%3D0&exph=1600&expw=2560&q=images&simid=608027045019197407&form=IRPRST&ck=0B56023DBA47696F799DBB7857D4EB1A&selectedindex=27&itb=0&cw=1375&ch=634&ajaxhist=0&ajaxserp=0&vt=0&sim=11&pivotparams=insightsToken%3Dccid_VpfkPVzF*cp_C29C1A255BAF8F1C293E05174887B2FE*mid_029417AC2AD7090F6F606E20BF2F63D99A12A50F*simid_608031906863122375*thid_OIP.VpfkPVzFXP-6lzAY0xg4kQHaF7&iss=VSI&ajaxhist=0&ajaxserp=0">
+        <img src="https://th.bing.com/th/id/R.ee89e33a2de59e747861744dd3aeddd1?rik=FpKQVhPWVAXaPw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fPJXlT3m.jpg&ehk=4KIKqKYgfLJY4YPAtMespwDXU44zDiNwMjgJptatzrU%3d&risl=&pid=ImgRaw&r=0" alt="HTML tutorial" style="width:42px;height:42px;">
+    </a>
+    <!-- Image Maps -->
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+      <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+      <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    </map>
+    <!-- Show different images for different screen sizes: -->
+     <h3>picture</h3>
+     <picture>
+        <source media="(min-width: 650px)" srcset="img_food.jpg">
+        <source media="(min-width: 465px)" srcset="img_car.jpg">
+        <img src="img_girl.jpg">
+      </picture>
+</body>
+</html>
