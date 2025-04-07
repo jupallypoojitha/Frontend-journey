@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+    width: 100%;
+    gap: 15px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+}
+header .logo{
+    height: 62px;
+    width: 170.5px;
+    
+}
+@font-face {
+    font-display: swap;
+    font-family: PhonePeSans;
+    font-style: normal;
+    font-weight: 900;
+    src:  url(https://www.phonepe.com/webstatic/8750/static/PhonePeSans-Bold-3bc29f20b4df86219a0a40c7fe23d19c.woff2);
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    width: 1083px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    /* font-family: PhonePeSans; */
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+header ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 0px 25px;
+    padding: 10px 5px;
+    
+}
+.color a:hover{
+    color:#5f259f;
+}
+
+header ul li:first-child{
+    margin-left: 47px;
+}
+.images{
+    width: 100%;
+    height: 490px;
+    background-image: url(https://www.phonepe.com/webstatic/8712/static/bab93065eae063d167f5ea2699093877/77430/hp-banner-pg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: bk-images;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes bk-images {
+    20%{background-image: url(https://www.phonepe.com/webstatic/8712/static/02bd961b06ce9f6e41f6d5e820c758c2/628b0/hp-banner-pb.webp);
+    background-repeat: no-repeat;  background-size: cover; }
+    60%{background-image: url(https://www.phonepe.com/webstatic/8712/static/92b0e19282c7abbad37c6b0acf778876/b912d/hp-banner-indus-desktop.webp);
+        background-repeat: no-repeat;  background-size: cover;}
+    100%{background-image: url(https://www.phonepe.com/webstatic/8712/static/6341d1762ac4ed98d04996c9b03b5eb5/628b0/hp-banner4wt.webp);
+        background-repeat: no-repeat;  background-size: cover;}
+}
+.main-card{
+    display: flex;
+    margin: 70px 0px 80px;
+    height: 286px;
+    margin: 90px 125.6px 80px 187px;
+    width: 269px;
+}
+.iil-card{
+    border: 0.8px solid #979797;
+    border-radius: 12px;
+    position: relative;
+    padding: 0px 0px 16px 0px;
+    margin: 0px 12px;
+   
+}
+.iil-card:hover{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+.iil-card h2, .iil-card span{
+    position: absolute;
+}
+.iil-card h2{
+    color: #361968;
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 1.33;
+    bottom: 20px;
+    left: 30px;
+    font-family: sans-serif;
+}
+.iil-card span{
+    bottom: 20px;
+    right: 0;
+    margin: 0px 30px;
+    color: #6739b7;
+    font-size: 39px;
+}
+.video-page{
+    margin: 50px 0px;
+    height: 637px;
+    display: flex;
+    margin-left: 7%;
+    gap: 145px;
+}
+.video-content{
+    height: 503px;
+    width: 520px;
+    margin-left: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.video-content h1{
+    color: #361374;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -.57px;
+    line-height: 1.12;
+    margin: 72.8px 0px  45.8px 0px;
+}
+.video-content .simple{
+    height: 122px;
+    width: 480px;
+    
+}
+.video-content .simple h2{
+    color: #323232;
+    font-size: 1.375rem;
+    font-weight: 400;
+    letter-spacing: -.33px;
+    line-height: 1.5;
+    margin: 18.3px 0px;
+}
+.video-content .simple p{
+    color: #232028;
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.4;
+    opacity: .5;
+    width: 90%;
+    margin: 14px 0px;
+}
+.border{
+    border-bottom: 1px solid black;
+}
+.video-page .video{
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 634px;
+    width: 634px;
+    margin-left: -90px;
+    outline: none;
+    border: none;
+}
+.picture{
+    height: 295px;
+}
+.picture img[alt="first"]{
+    width: 550px;
+    height: 212px;
+    display: block;
+    margin: auto;
+}
+.picture img[alt="second"]{
+    width: 170px;
+    height: 62px;
+    display: block;
+    margin: auto;
+
+}
+.overlapse-pics{
+    display: flex;
+    height: 500px;
+    width: 1268px;
+    margin: 20px 0px 0px;
+   
+}
+.overlapse-pics img:first-child,.overlapse-pics img:last-child{
+    margin-left: 190px;
+}
+.overlapse-pics img:last-child{
+    margin-left: -180px;
+} 
+.overlapse-pics img{
+    margin-left: -180px;
+    width: 377px;
+    height: 369px;
+}
+.overlapse-pics img:nth-child(4){
+    z-index: -1;
+}
+.overlapse-pics img:nth-child(5){
+    z-index: -11;
+}
+.overlapse-pics img:hover{
+    width: 450px;
+    height: 440px;
+    z-index: 11111111111;
+}
+.btn-watch{
+    width: 260px;
+    height: 36px;
+    padding: 0px 16px;
+    border: 0.8px solid #533093;;
+    margin: -20px auto;
+    border-radius: 18px;
+    background-color: white;
+    
+}
+.btn-watch a{
+    display: flex;
+    color: #371f7b;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.btn-watch:hover{
+    background-color: #371f7b;   
+}
+.btn-watch a:hover{
+    color: white;
+}
+.payments-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px 0px;
+    font-family: sans-serif;
+}
+.payments-text .payment{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    opacity: 1;
+    text-align: center;
+    width: 960px;
+}
+.payments-text span{
+    display: block;
+    color: #6d4bb6;
+}
+.secure-bk{
+    align-items: center;
+    background: #967edd;
+    background-image: url(https://www.phonepe.com/webstatic/8722/static/trust-banner-861f26253b71e00c083fd5f6c2ea30fc.png);
+    background-position: right 38px top -4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 32px;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 22px;
+    transform: translateY(138px);
+    width: 1268px;
+    height: 332px;
+    margin: auto;
+}
+.secure-bk .secure-image img{
+    width: 200px;
+    height: 200px;
+    margin-left: 55px;
+}
+.secure-bk .secure-content{
+    width: 1224px;
+    height: 288px;
+    margin-left: 208px;
+    font-family: sans-serif;
+}
+.secure-bk .secure-content h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin:33px 0px 12px 0px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+
+}
+.secure-bk .secure-content p{
+    font-size: 1.25rem;
+    line-height: 1.7;
+    width: 55%;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.secure-logo{
+    margin: 42px 0px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.secure-logo img{
+    width: 100px;
+    margin-right: 32px;
+}
+.secure-logo img:first-child{
+    height: 25px;
+}
+.secure-logo img:last-child{
+    height: 31px;
+}
+.partner{
+    height: 659px;
+    padding-top: 200px;
+    background: linear-gradient(#ddd8fa, #fff);
+    margin-bottom: 100px;
+    font-family: sans-serif;
+
+}
+.partner h1{
+    color: #361968;
+    font-size: 2.625rem;
+    font-weight: 600;
+    letter-spacing: -.63px;
+    line-height: 1.4;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+    text-align: center;
+    margin: 34.86px 0px;
+}
+.btn-partner{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 45px;
+}
+.partner a{
+    display: flex;
+    color: white;
+    font-size: 16px;
+    width: 254px;
+    height: 60px;
+    padding: 20px 20px;
+    background-color: #07C3DE;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.btn-partner span{
+    font-size: 26px;
+    margin-left: 20px;
+    
+}
+.btn-partner img:hover{
+    animation-name: move;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    
+    
+}
+@keyframes move {
+    100%{
+        transform: translateX(15px);
+    }
+    }
+.partner .part-logo{
+    display: flex;
+    margin: auto;
+    width: 1268px;
+    height: 330px;
+} 
+.business{
+    margin: 300px 0px 0px 0px;
+    height: 716px;
+    display: flex;
+    
+}
+.business-images{
+    position: relative;
+    left: 127px;
+    width: 633px;
+    height: 598px;
+}
+.busi-image{
+    width: 633px;
+    height: 598px;
+    position: absolute;
+} 
+.sales-image{
+    position: absolute;
+    width: 635px;
+    height: 635px;
+    left: -65px;
+    top: 75px;
+} 
+.business-content{
+    margin-left: 268px;
+    margin-top: -5px;
+    width: 495px;
+    height: 619px;
+}  
+.business-content h1{
+    color: #361968;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: -.63px;
+    line-height: 1.12;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+    margin: 33.2px 0px 38px 0px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.business-content .bcp{
+    color: #33333389;
+    display :block;
+    font-family :PhonePeSans, sans-serif, Helvetica, Arial;
+    font-size :16px;
+    font-weight :300;
+    margin: 7px 0px 60px 0px;
+}
+.business-content h3{
+    color:rgb(50, 50, 50);
+    display:block;
+    font-family :PhonePeSans, sans-serif, Helvetica, Arial;
+    font-size:22px;
+    font-weight :400;
+    margin:22px 0px;
+}
+.business-content a{
+    text-decoration: none;
+    display: block;
+    
+}
+.atag{
+    border-bottom: 0.8px solid gray;
+}
+.business-content a h4{
+    color:rgb(103, 57, 183);
+    cursor: pointer;
+    display: block;
+    font-family: PhonePeSans, sans-serif, Helvetica, Arial;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 24px 0px 0px 0px;
+    height: 20.7px;
+}
+.business-content a p{
+    color :#33333389;;
+    cursor: pointer;
+    display: block;
+    font-family: PhonePeSans, sans-serif, Helvetica, Arial;
+    font-size: 16px;
+    font-weight: 300;
+    height :30.075px;
+    margin: 13px 0px 10px 0px;
+}
+.bk-fullbuilding{
+    background-color: #7962be;
+}
+.bk-building{
+    
+    background-image: url(https://www.phonepe.com/webstatic/8750/static/stats-desktop-d03f14dfb53bebd5b23b63dd8e464adb.png);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 444px;
+    margin: 0 auto;
+    width: 1268px;
+}
+.bk-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1268px;
+    padding: 65px 125px 10px 125px;
+}
+.text-cont{
+    width: 254px;
+    height: 110px; 
+
+}
+.text-cont span{
+    display: block;
+}
+.text-cont .regular{
+    color: #dcd3ff;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+.text-cont .bolder{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.bk-subtext{
+    display: flex;
+    padding: 0px  125px;
+    align-items: center;
+    gap: 40px;
+    height: 70px;
+}
+.bk-subtext p{
+    color: #d4cbff;
+    font-size: 1.625rem;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 26px 0px 26px 0px;
+    
+}
+.bk-subtext a{
+    background-color: transparent;
+    border: 1.6px solid #4cdeff;
+    color: #fff;
+    font-size: 1.125rem;
+    height: 37px;
+    letter-spacing: -.27px;
+    line-height: 33px;
+    text-align: center;
+    width: 167px;
+    padding: 0px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.end-content{
+    weight:1268;
+    height:425px;
+    /* height: 525px; */
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.end-subsection{
+    width: 165px;
+    height: 426px;
+   margin: 0px 8px;
+}
+.end-subsection a{
+    text-decoration: none;
+}
+.phonepe-logo{
+    width: 140px;
+    height: 59px;
+}
+.end-subsection a h3{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2.29;
+    margin-bottom: 8px;
+    color: black;
+    letter-spacing: -.21px;
+    margin: 16px 0px 8px 0px;
+}
+.end-subsection li a p{
+    margin: 16px 4px 16px 4px;
+    color: #4d4d4d;
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: -.21px;
+    line-height: 1;
+    font-family: sans-serif;
+}
+.store{
+    width: 12px;
+    margin-left: 5px;
+}
+.compliant{
+    width: 113px;
+    height: 71px;
+}
+.social-logos{
+    margin: 0px 140px 0px 140px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    
+}
+.footer{
+    color: #989898;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 2.43;
+    text-align: center;
+    word-spacing: 1px;
+    height: 38px;
+    margin-bottom: 60px;
+}

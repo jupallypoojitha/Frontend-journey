@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    
+}
+header{
+    width: 100%;
+    padding: 0px 51px 0px 51px;
+    height: 66px;
+    position: fixed;
+    top:0;
+    background-color: transparent;
+}
+@font-face {
+    font-family: Amazon Ember;
+    src: url(../../assets/fonts/Amazon\ Ember\ Medium.ttf);
+}
+nav{
+    /* background-color: #141920; */
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3), 0 8px 12px 6px rgba(0, 0, 0, .15);
+    padding: 0px 21px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    font-size: 15.7px;
+    font-weight: 400;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    
+    
+}
+.logo{
+    height: 18.6px;
+    width: 96px;
+    margin-right: 25px;
+}
+.nav-list1{
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list1 li,.Subscriptions{
+    
+    padding: 12px 14px;
+    margin: 0px 0px  0px 5px;
+}
+
+.nav-list2{
+    margin-left: 100px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.line{
+    background-color: #737579;
+    width: 2px;
+    height: 24px;
+    margin: 0px 10px 0px 0px ;
+}
+.nav-list2 ._0rfOXL{
+    height: 20px;
+    width: 24px;
+}
+.drop-down{
+    display: flex; 
+    align-items: center;
+}
+.nav-list2 .icon{
+    height: 25px;
+    width: 30px;
+    
+}
+.nav-list2 li button{
+    margin: 2px 0px 0px 2px;
+    padding: 8px 14px;
+    background-color: #157bcf;
+    font-size: 16px;
+    font-family: Amazon Ember, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+nav .nav-list1 li:hover , nav .Subscriptions:hover{
+    /* padding: 14px 14px; */
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+}
+.nav-list2 li{
+    padding: 10px;
+    margin-right: 5px;
+}
+/* .nav-list2 li:nth-child(1){
+    padding: 10px;
+} */
+.nav-list2 li:nth-child(1):hover , .nav-list2 li:nth-child(3):hover{
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+}
+.nav-list2 li:nth-child(2):hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.nav-list2 li:nth-child(4){
+    padding: 0px;
+    border-radius: 50%;
+    font-size: 33px;
+    height: 33px;
+    background-color: #3d5b73;
+}
+.nav-list2 li button:hover{
+    background-color: #1d99ff;
+}
+.bk-img{
+    /* margin-top: 65px; */
+    --bg-alignment: right;
+    background-image: linear-gradient(to var(--bg-alignment, right), black 50%, transparent 58%),url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-position: right 66px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 95vw;
+    margin-left: 60px; 
+
+    
+}
+.welcome-content{
+    color: white;
+    font-family: Amazon Ember, Arial, sans-serif;
+    padding: 152px 72px 72px 72px;
+    height: 474px;
+    width: 55%;
+    margin-left: -60px;
+    
+}
+.welcome-content h1,h2,button{
+   
+    line-height: 28px;
+}
+.welcome-content h1{
+    font-size: 50px;
+    margin-bottom: 55px;
+    letter-spacing: 1px;
+}
+.welcome-content h2{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 44px;
+}
+.welcome-content button{
+    padding: 8px 21px 8px 21px;
+    color: #00050d;;
+    background-color: white;
+    height: 62px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: Amazon Ember,  Arial, sans-serif;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bk-second{
+    --bg-alignment:right;
+    height: 100vh;
+    background-image: linear-gradient(to var(--bg-alignment, right), black 50%, transparent 58%),url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-top: 30px;
+}
+.rent-now-page{
+    height: 328px;
+    width: 673px;
+    color: white;
+    padding: 72px 0px 72px 72px;
+    line-height: 55px;
+    font-family: Amazon Ember,  Arial, sans-serif;
+}
+.rent-now-page h1{
+    font-size: 50px;
+    margin-bottom: 31px;
+    letter-spacing: 1px;
+}
+.rent-now-page h3{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.rent-now-page button{
+    padding: 16px 20px;
+    font-size: 20px;
+    font-family: Amazon Ember,  Arial, sans-serif;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+.sub-page{
+    display: flex;
+    height: 675px;
+    padding: 72px;
+    color: white;
+    gap: 27px;
+    background-color: #00050d;
+}
+.sub-content{
+    width: 50%;
+    font-family: Amazon Ember,  Arial, sans-serif;
+}
+.sub-content h1{
+    margin-top: -10px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+.sub-content h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.sub-images{
+    width: 50%;
+    
+}
+.sub-images img{
+    width: 222px;
+    height: 155px;
+    border-radius: 12px;
+    padding:0px 5px 5px 0px;
+    
+}
+.sub-images img:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+    z-index: 10;
+      
+}
+footer{
+    height: 136px;
+    background-color: #222222;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+    font-family: Amazon Ember,  Arial, sans-serif;
+}
+.contact a{
+    color: #79b8f3;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Amazon Ember,  Arial, sans-serif;
+}
+.contact {
+    margin-top: -2px;
+    margin-bottom:  14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+footer p{
+    color: #7d929f;
+    font-size: 15px;
+}
