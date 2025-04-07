@@ -1,0 +1,163 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: white;
+        }
+        #swiggyBody{
+            height: 100vh;
+            background-color:#ff5200;
+        }
+        #swiggy{
+            display: flex;
+            padding: 32px 0px;
+            justify-content: space-between;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            font-size: 16px;
+            font-weight: bolder;
+            height: 120px;
+            border-bottom: 0.1px solid #ff7c3f6b;
+            background-color: #ff5200;
+            font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+            margin-top: 20px;
+            position: sticky;
+            top: 0px;
+        }
+        #swiggy ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            width: 40%;
+        }   
+        #swiggy ul li{
+            padding:12px 0px;   
+        }
+        #swiggy img{
+            width: 160px;
+            height: 48px;
+        }
+        #swiggy .item1,.item2{
+            border-radius: 15px;
+           
+        }
+        #swiggy .item1{
+            border:  0.8px solid;
+            padding: 14px 16px 12px 16px;
+        }
+        #swiggy .item2{
+            background-color: black;
+            padding: 1rem 2.5rem;
+            
+        }
+        /* hacker rank navigation bar */
+        #hackerrankBody{
+            height: 100vh;
+            background-color: white;
+        }
+        #hackerrank{
+            height: 64px;
+            display: flex;
+            justify-content: space-between;
+            font-family: Satoshi, Verdana, sans-serif;
+            background-color: white;
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: -30px;
+            position: sticky;
+            top: 0px;
+        }
+        #hackerrank .first-ul{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 50%;
+        }
+        #hackerrank .first-ul img{
+            margin-left: 50px;
+        }
+        #hackerrank .second-ul{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 28%;
+        }
+        #hackerrank ul li {
+            list-style-type: none;
+            padding: 10px 20px;
+        }
+        #hackerrank .login:hover{
+            border-radius: 8px;
+            background-color: rgb(182, 243, 182);
+        }
+        #hackerrank .request:hover{
+            background-color: rgb(182, 243, 182);
+            border-radius: 5px;
+            border: 0.8px solid rgb(0, 255, 0);
+            box-shadow: 0px 0px 5px 1px  rgb(0, 255, 0);
+        }
+        #hackerrank .free:hover{
+            background-color: black;
+            border-radius: 5px;
+            color: white;
+        }
+        #phonepe{
+            height: 100vh;
+        }
+        #phonepeBody{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 76px;
+            width: 100%;
+            gap: 15px;
+            position: sticky;
+            top: 0px;
+            background-color: white;
+            z-index: 1;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+        }
+        #phonepeBody .logo{
+            height: 62px;
+            width: 170.5px;
+            
+        }
+        @font-face {
+            font-display: swap;
+            font-family: PhonePeSans;
+            font-style: normal;
+            font-weight: 900;
+            src:  url(https://www.phonepe.com/webstatic/8750/static/PhonePeSans-Bold-3bc29f20b4df86219a0a40c7fe23d19c.woff2);
+        }
+
+        #phonepeBody ul{
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+            width: 1083px;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            /* font-family: PhonePeSans; */
+            font-size: 15px;
+            font-weight: 500;
+           
+        }
+        #phonepeBody ul li a{
+            color: black;
+            text-decoration: none;
+            margin: 0px 25px;
+            padding: 10px 5px;
+            
+        }
+        #phonepeBody .color a:hover{
+            color:#5f259f;
+        }
+        
+        #phonepeBody ul li:first-child{
+            margin-left: 47px;
+        }
+        
